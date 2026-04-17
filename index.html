@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHub - Your Ultimate Shopping Destination</title>
+    <link rel="stylesheet" href="ecommerce.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <span class="logo-icon">🛍️</span>
+                <span class="logo-text">ShopHub</span>
+            </div>
+
+            <ul class="navbar-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <div class="navbar-actions">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search products...">
+                    <button class="search-btn">🔍</button>
+                </div>
+                <button class="cart-btn">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to ShopHub</h1>
+            <p>Discover amazing products at unbeatable prices</p>
+            <button class="hero-btn">Shop Now</button>
+        </div>
+        <div class="hero-banner">
+            <div class="banner-image">🎉</div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section" id="categories">
+        <div class="container">
+            <h2>Shop by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">👔</div>
+                    <h3>Fashion</h3>
+                    <p>Trending clothes & accessories</p>
+                    <button class="category-btn">Explore →</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">📱</div>
+                    <h3>Electronics</h3>
+                    <p>Latest gadgets & devices</p>
+                    <button class="category-btn">Explore →</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🏠</div>
+                    <h3>Home & Garden</h3>
+                    <p>Furniture & decorations</p>
+                    <button class="category-btn">Explore →</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">⚽</div>
+                    <h3>Sports</h3>
+                    <p>Athletic gear & equipment</p>
+                    <button class="category-btn">Explore →</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">📚</div>
+                    <h3>Books</h3>
+                    <p>Novels, guides & more</p>
+                    <button class="category-btn">Explore →</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🎮</div>
+                    <h3>Gaming</h3>
+                    <p>Games & accessories</p>
+                    <button class="category-btn">Explore →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-section">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="products-grid">
+                <!-- Product Card 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">👕</div>
+                        <span class="badge">Sale</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium T-Shirt</h3>
+                        <p class="product-category">Fashion</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="review-count">(245)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="original-price">RS449.99</span>
+                            <span class="sale-price">RS299.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">⌚</div>
+                        <span class="badge new">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Watch</h3>
+                        <p class="product-category">Electronics</p>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="review-count">(189)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="sale-price">199.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">👟</div>
+                        <span class="badge">Sale</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Running Shoes</h3>
+                        <p class="product-category">Sports</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="review-count">(512)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="original-price">Rs1299.99</span>
+                            <span class="sale-price">Rs799.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">🎧</div>
+                        <span class="badge">Popular</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Wireless Headphones</h3>
+                        <p class="product-category">Electronics</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="review-count">(834)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="sale-price">Rs149.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">📖</div>
+                        <span class="badge">Sale</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bestseller Book</h3>
+                        <p class="product-category">Books</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="review-count">(1203)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="original-price">Rs2444.99</span>
+                            <span class="sale-price">RS1444.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">🎮</div>
+                        <span class="badge new">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Gaming Console</h3>
+                        <p class="product-category">Gaming</p>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="review-count">(456)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="sale-price">Rs4999.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">💼</div>
+                        <span class="badge">Sale</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Leather Backpack</h3>
+                        <p class="product-category">Fashion</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="review-count">(678)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="original-price">Rs899.99</span>
+                            <span class="sale-price">Rs599.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">🛋️</div>
+                        <span class="badge">Popular</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Office Chair</h3>
+                        <p class="product-category">Home & Garden</p>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="review-count">(345)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="sale-price">Rs2999.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 9 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">⚽</div>
+                        <span class="badge new">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Professional Football</h3>
+                        <p class="product-category">Sports</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="review-count">(234)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="sale-price">Rs399.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <button class="view-all-btn">View All Products →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Section -->
+    <section class="promo-section">
+        <div class="promo-content">
+            <h2>Special Offer</h2>
+            <p>Get 30% off on selected items this week!</p>
+            <button class="promo-btn">Shop Sale</button>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates on new products and exclusive offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About ShopHub</h3>
+                <p>Your one-stop shop for everything you need. Quality products, great prices, excellent service.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShopHub. All rights reserved.</p>
+            <div class="payment-methods">
+                <span>Payment Methods: </span>
+                <span class="payment-icons">💳 💰 🏦</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
